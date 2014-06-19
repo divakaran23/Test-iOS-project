@@ -21,6 +21,7 @@
 		56AA4F0D1952CCD3005CBF62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AA4EEF1952CCD3005CBF62 /* UIKit.framework */; };
 		56AA4F151952CCD3005CBF62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56AA4F131952CCD3005CBF62 /* InfoPlist.strings */; };
 		56AA4F171952CCD3005CBF62 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AA4F161952CCD3005CBF62 /* GitTestTests.m */; };
+		56AA4F221952D533005CBF62 /* DJTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AA4F211952D533005CBF62 /* DJTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		56AA4F121952CCD3005CBF62 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		56AA4F141952CCD3005CBF62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56AA4F161952CCD3005CBF62 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		56AA4F201952D533005CBF62 /* DJTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJTest.h; sourceTree = "<group>"; };
+		56AA4F211952D533005CBF62 /* DJTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				56AA4EFD1952CCD3005CBF62 /* Main.storyboard */,
 				56AA4F001952CCD3005CBF62 /* DJViewController.h */,
 				56AA4F011952CCD3005CBF62 /* DJViewController.m */,
+				56AA4F201952D533005CBF62 /* DJTest.h */,
+				56AA4F211952D533005CBF62 /* DJTest.m */,
 				56AA4F031952CCD3005CBF62 /* Images.xcassets */,
 				56AA4EF21952CCD3005CBF62 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56AA4EFC1952CCD3005CBF62 /* DJAppDelegate.m in Sources */,
+				56AA4F221952D533005CBF62 /* DJTest.m in Sources */,
 				56AA4F021952CCD3005CBF62 /* DJViewController.m in Sources */,
 				56AA4EF81952CCD3005CBF62 /* main.m in Sources */,
 			);
